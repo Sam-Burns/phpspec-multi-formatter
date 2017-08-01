@@ -1,2 +1,4 @@
 composer.lock
 vendor/
+test/sampleapp/spec/junit-output/
+!test/sampleapp/spec/junit-output/.gitkeep

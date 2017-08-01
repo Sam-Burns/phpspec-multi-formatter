@@ -6,3 +6,4 @@ suites:
 
 extensions:
     "SamBurns\\PhpSpecMultiFormatter\\Extension":
+        file: 'test/sampleapp/spec/junit-output/junit.xml'

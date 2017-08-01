@@ -12,7 +12,7 @@ In alpha.  Sort of works.  Development/testing ongoing.  Contributions welcome.
 Requires PhpSpec 4 and PHP 7.
 
 ```bash
-composer require --dev sam-burns/phpspec-multi-formatter 
+composer require --dev samburns/phpspec-multi-formatter 
 ```
 
 In your `phpspec.yml` file:

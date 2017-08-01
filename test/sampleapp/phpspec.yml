@@ -1,0 +1,8 @@
+suites:
+    default:
+        spec_prefix: SampleAppSpec
+        spec_path: test/sampleapp/spec/
+        src_path: test/sampleapp/src/
+
+extensions:
+    "SamBurns\\PhpSpecMultiFormatter\\Extension":

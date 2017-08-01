@@ -1,0 +1,25 @@
+{
+    "name": "samburns/phpspec-multi-formatter",
+
+    "description": "A mutli-format outputter for PhpSpec",
+
+    "type": "library",
+
+    "require": {
+        "php": "^7.0",
+        "phpspec/phpspec": "^4.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "SamBurns\\": "src/SamBurns"
+        }
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+            "SampleApp\\":     "test/sampleapp/src/SampleApp/",
+            "SampleAppSpec\\": "test/sampleapp/spec/SampleAppSpec/"
+        }
+    }
+}
